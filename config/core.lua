@@ -8,3 +8,4 @@ vim.opt.expandtab = true
 vim.lsp.inlay_hint.enable()
 vim.opt.ignorecase = true
 vim.lsp.inlay_hint.enable(true)
+vim.api.nvim_set_keymap("t", "<Esc>", [[<C-\><C-n>]], { noremap = true, silent = true })
